@@ -5,6 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="421dp"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/iconnav"
+        tools:layout_editor_absoluteY="6dp" />
+
     <TextView
         android:id="@+id/textView38"
         android:layout_width="207dp"
@@ -56,7 +76,7 @@
         android:layout_height="36dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:fontFamily="@font/cabin_bold"
@@ -64,7 +84,7 @@
         android:textColor="#46E650"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,8 +92,8 @@
         android:id="@+id/textView4"
         android:layout_width="111dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="148dp"
-        android:layout_marginRight="148dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
         android:fontFamily="@font/cabin"
         android:text="BIODATA"
         android:textColor="#04C4FF"
@@ -165,7 +185,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206"
+        app:layout_constraintVertical_bias="0.254"
         app:srcCompat="@drawable/ic_launcher_foreground"
         tools:ignore="VectorDrawableCompat" />
 
@@ -292,5 +312,7 @@
         android:background="@drawable/ok"
         tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="534dp" />
+
+
 
 </android.support.constraint.ConstraintLayout>
