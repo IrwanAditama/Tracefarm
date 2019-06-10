@@ -399,8 +399,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="125dp"
-        android:layout_height="30dp"
+        android:layout_width="193dp"
+        android:layout_height="67dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="16dp"
@@ -408,9 +408,10 @@
         android:layout_marginRight="8dp"
         android:fontFamily="@font/cabin_bold"
         android:text="KOLEKTOR"
-        android:textSize="24sp"
+        android:textColor="#46E650"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.599"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -3,37 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#00FAF2F2">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="363dp"
-        android:layout_height="360dp"
+        android:id="@+id/imageView3"
+        android:layout_width="373dp"
+        android:layout_height="537dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logogabung" />
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/peta1" />
 
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="385dp"
-        android:layout_height="181dp"
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="132dp"
+        android:layout_height="51dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="236dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:text="PEMBELI"
+        android:textColor="#46E650"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/pernik" />
-
-
+        tools:layout_editor_absoluteY="24dp" />
 </android.support.constraint.ConstraintLayout>

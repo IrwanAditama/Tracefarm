@@ -5,25 +5,117 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="421dp"
-        android:layout_height="50dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="-2dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="PETANI"
+        android:textColor="#3D5271"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/iconnav"
-        tools:layout_editor_absoluteY="6dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="436dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="12dp"
+        android:background="#B7DB7C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#D6E9EB"
+        android:text="Harga"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="92dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#D7EAEC"
+        android:text="Info"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#D6E9EB"
+        android:text="Komoditas"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="102dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#B6DA7C"
+        android:text="Biodata"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button28"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="87dp"
+        android:layout_height="31dp"
+        android:background="@drawable/ok"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="636dp" />
 
     <TextView
         android:id="@+id/textView38"
@@ -48,12 +140,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginBottom="196dp"
         android:text="Lokasi kebun"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -62,7 +154,7 @@
         android:layout_height="202dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="604dp"
+        android:layout_marginTop="636dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,44 +162,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pernik" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="122dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:fontFamily="@font/cabin_bold"
-        android:text="PETANI"
-        android:textColor="#46E650"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="111dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginRight="132dp"
-        android:fontFamily="@font/cabin"
-        android:text="BIODATA"
-        android:textColor="#04C4FF"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
     <EditText
         android:id="@+id/editText7"
         android:layout_width="225dp"
         android:layout_height="36dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
@@ -116,9 +176,9 @@
         android:text="Nama"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        tools:layout_editor_absoluteY="193dp" />
 
     <EditText
         android:id="@+id/editText8"
@@ -126,6 +186,7 @@
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
@@ -134,7 +195,7 @@
         android:text="ID"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText7" />
 
@@ -150,7 +211,7 @@
         android:text="Desa"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText8" />
 
@@ -166,7 +227,7 @@
         android:text="Kecamatan"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -185,7 +246,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254"
+        app:layout_constraintVertical_bias="0.314"
         app:srcCompat="@drawable/ic_launcher_foreground"
         tools:ignore="VectorDrawableCompat" />
 
@@ -206,22 +267,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="190dp"
         android:layout_height="19dp"
         android:layout_marginTop="11dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Provinsi"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/editText9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.666" />
 
     <EditText
         android:id="@+id/editText9"
@@ -231,14 +292,14 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Nama kelompok tani"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -249,12 +310,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="4dp"
         android:text="Jumlah anggota keluarga"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -263,38 +324,37 @@
         android:layout_height="17dp"
         android:text="Pemasukan perbulan"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="367dp" />
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="431dp" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="383dp"
         android:layout_height="23dp"
-        android:layout_marginTop="12dp"
         android:text="Pengeluaran perbulan"
         android:textSize="12sp"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        tools:layout_editor_absoluteX="8dp" />
+        tools:layout_editor_absoluteX="11dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="144dp"
         android:layout_height="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:text="Luas Kebun"
         android:textSize="12sp"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
-        tools:layout_editor_absoluteX="246dp" />
+        tools:layout_editor_absoluteX="251dp" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="Lokasi GPS kebun"
         android:textSize="12sp"
         app:layout_constraintTop_toBottomOf="@+id/textView37"
-        tools:layout_editor_absoluteX="8dp" />
+        tools:layout_editor_absoluteX="12dp" />
 
     <TextView
         android:id="@+id/textView17"
@@ -303,16 +363,7 @@
         android:text="Sudah sertifikasi?"
         android:textSize="12sp"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
-        tools:layout_editor_absoluteX="8dp" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="98dp"
-        android:layout_height="42dp"
-        android:background="@drawable/ok"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="534dp" />
-
+        tools:layout_editor_absoluteX="12dp" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -11,6 +11,8 @@
     <item> rumputlaut </item>
     <item> cacao </item>
     </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <!--<string name="cacao">"Cacao</string>-->
     <!--<string name="kopi">Kopi</string>-->
     <!--<string name="rumputlaut">Rumput Laut</string>-->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+                <item
+                    android:id="@+id/nav_biodata"
+                    android:icon="@drawable/ic_menu_sekilas"
+                    android:title="BIODATA PETANI" />
+
+
+
+                <item
+                    android:id="@+id/nav_komoditas"
+                    android:icon="@drawable/ic_menu_kabupaten"
+                    android:title="KOMODITAS" />
+
+
+
+                <item
+                    android:id="@+id/nav_harga"
+                    android:icon="@drawable/ic_menu_bantuan"
+                    android:title="HARGA" />
+
+
+
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_menu_tentang"
+                    android:title="INFO"
+                 <item
+                    android:id="@+id/nav_indeks"
+                    android:icon="@drawable/ic_menu_tentang"
+                    android:title="INDEKS"/>
+
+
+
+</menu>
