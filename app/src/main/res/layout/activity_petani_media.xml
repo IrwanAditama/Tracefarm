@@ -6,6 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="1033dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pernik" />
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="436dp"
@@ -231,16 +246,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.835" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="951dp"
-        android:layout_height="196dp"
-        android:layout_marginTop="40dp"
-        android:contentDescription="TODO"
-        app:layout_constraintTop_toBottomOf="@+id/textView33"
-        app:srcCompat="@drawable/pernik"
-        tools:layout_editor_absoluteX="-283dp" />
-
     <VideoView
         android:id="@+id/videoView4"
         android:layout_width="153dp"
@@ -323,14 +328,15 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="516dp"
         android:fontFamily="@font/cabin_bold"
         android:text="Video"
         android:textColor="#000000"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="187dp" />
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView40"
